@@ -316,11 +316,18 @@ footer a{
 
   .slide-from-right {
       position: relative;
-      right: -100%; /* Posición inicial fuera del contenedor */
-      animation: slideRight 1s forwards; /* Duración de la animación */
+      right: -100%; 
+      animation: slideRight 1s forwards; 
   }
 
   @keyframes slideRight {
       0% { right: -100%; }
-      100% { right: 0; } /* Posición final dentro del contenedor */
+      100% { right: 0; } 
   }
+
+ .articlejumbo {
+  border-top: #000 solid 3px;
+  border-bottom: #000 solid 3px;
+  padding-bottom: 25px;
+ }
+
