@@ -1,16 +1,22 @@
 @import url(../css/estilos.css);
 
-.item{
+@mixin item($bg-color, $hover-bg-size, $contrast) {
     border: 2px solid #000;
     background-image: url(../img/bakefondo.jpg);
     background-size: 85%;
     background-repeat: no-repeat;
     background-position: center;
     transition: all 0.9s;
+    background-color: $bg-color;
+
+    &:hover {
+        background-size: $hover-bg-size;
+        filter: contrast($contrast);
+    }
 }
-.item:hover{
-    transition: all 0.9s;
-    background-size: 125%;
+
+.item {
+    @include item(#000, 125%, 100%);
 }
 
 $micolor1: rgb(198, 119, 243);
