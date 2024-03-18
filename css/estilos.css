@@ -192,7 +192,7 @@ footer a{
 
   .item {
     border: 2px solid #000;
-    background-image: url(img/img1.jpg);
+    background-image: url(img/img1.webp);
     background-size: 85%;
     background-repeat: no-repeat;
     background-position: center;
@@ -201,55 +201,55 @@ footer a{
   
   .item1 {
     background-color: rgb(198, 119, 243);
-    background-image: url(../img/Nov1.jpeg);
+    background-image: url(../img/Nov1.webp);
     filter: contrast(80%);
     }
   
   .item2 {
     background-color: rgb(198, 119, 243);
-    background-image: url(../img/Nov2.jpeg);
+    background-image: url(../img/Nov2.webp);
     filter: contrast(80%);
     }
   
   .item3 {
     background-color: rgb(198, 119, 243);
-    background-image: url(../img/Nov3.jpeg);
+    background-image: url(../img/Nov3.webp);
     filter: contrast(80%);
     }
 
   .item4 {
     background-color: rgb(181, 97, 250);
-    background-image: url(../img/Nov4.jpeg);
+    background-image: url(../img/Nov4.webp);
     filter: contrast(80%);
     }
 
   .item5 {
     background-color: rgb(181, 97, 250);
-    background-image: url(../img/Nov5.jpeg);
+    background-image: url(../img/Nov5.webp);
     filter: contrast(80%);
     }
     
   .item6 {
     background-color: rgb(181, 97, 250);
-    background-image: url(../img/Nov6.jpeg);
+    background-image: url(../img/Nov6.webp);
     filter: contrast(80%);
   }
   
   .item7 {
     background-color: rgb(155, 54, 250);
-    background-image: url(../img/Nov7.jpeg);
+    background-image: url(../img/Nov7.webp);
     filter: contrast(80%);
   }
   
   .item8 {
     background-color: rgb(155, 54, 250);
-    background-image: url(../img/Nov8.jpeg);
+    background-image: url(../img/Nov8.webp);
     filter: contrast(80%);
   }
   
   .item9 {
     background-color: rgb(155, 54, 250);
-    background-image: url(../img/Nov9.jpeg);
+    background-image: url(../img/Nov9.webp);
     filter: contrast(80%);
   }
 

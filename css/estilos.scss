@@ -2,7 +2,7 @@
 
 @mixin item($bg-color, $hover-bg-size, $contrast) {
     border: 2px solid #000;
-    background-image: url(../img/bakefondo.jpg);
+    background-image: url(../img/bakefondo.webp);
     background-size: 85%;
     background-repeat: no-repeat;
     background-position: center;
@@ -26,21 +26,21 @@ $micolor3: rgb(155, 54, 250);
 @for $i from 1 through 3 {
     .item#{$i} {
         background-color: lighten($micolor1, $i * 10%);
-        background-image: url(../img/bakefondo.jpg);
+        background-image: url(../img/bakefondo.webp);
     }
 }
 
 @for $i from 4 through 6 {
     .item#{$i} {
         background-color: lighten($micolor2, $i * 10%);
-        background-image: url(../img/bakefondo.jpg);  
+        background-image: url(../img/bakefondo.webp);  
     }
 }
 
 @for $i from 7 through 9 {
     .item#{$i} {
         background-color: lighten($micolor3, $i * 10%);
-        background-image: url(../img/bakefondo.jpg);
+        background-image: url(../img/bakefondo.webp);
     }
 }
 
@@ -142,7 +142,7 @@ footer {
 
 .item {
     border: 2px solid #000;
-    background-image: url(img/img1.jpg);
+    background-image: url(img/img1.webp);
     background-size: 85%;
     background-repeat: no-repeat;
     background-position: center;
@@ -159,7 +159,7 @@ $item-number: 9;
 @for $i from 1 through $item-number {
     .item#{$i} {
         background-color: rgb(198 - $i * 2, 119 - $i * 2, 243);
-        background-image: url(../img/bakefondo.jpg);
+        background-image: url(../img/bakefondo.webp);
         filter: contrast(80%);
     }
 }
